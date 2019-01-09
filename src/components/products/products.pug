@@ -1,0 +1,172 @@
+mixin products()
+  +b('section').products
+    +b.container
+      +b.products-left
+        +e.head
+          +e('h2') Наши товары
+          +e('p') Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            | et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            | ex ea commodo consequat.
+        +b.products-items
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_1.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Бампер передний газель Некст/Next
+            +e.item__price
+              +e('span') 6 578₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_2.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Карданные валы ГАЗ
+            +e.item__price
+              +e('span') 2 438₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_3.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Тормозная камера ПАЗ
+            +e.item__price
+              +e('span') 2 438₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_4.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Вакуумный усилитель тормозов ГАЗЕЛЬ "БИЗНЕС" (без ГТЦ)
+            +e.item__price
+              +e('span') 2 438₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_5.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Зеркало Газель, Соболь БИЗНЕС механическое с повторителем
+            +e.item__price
+              +e('span') 2 438₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_6.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Глушитель ГАЗ 3302 (TEMPEST)
+            +e.item__price
+              +e('span') 2 438₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_1.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Бампер передний газель Некст /Next
+            +e.item__price
+              +e('span') 6 578₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_2.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Карданные валы ГАЗ
+            +e.item__price
+              +e('span') 6 578₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+          +b.products-items__item
+            +e.item__image
+              +e('img')(src='assets/images/products_item_3.png' alt='')
+            +e('span').item__cod Код: 00000000968
+            +e('span').item__number Каталожный номер: 00000000968
+            +e('p').item__name.jsDotDot Тормозная камера ПАЗ
+            +e.item__price
+              +e('span') 6 578₽
+              +e('button').item__price__btn Заказать
+            +e('a')(href='#').item__buy купить в 1 клик
+      +b.products-right
+        +e.slider
+          +e('h2').slider__head Спец предложения
+          +b.products-slick.jsProductsSlider
+            +b.products-spec
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_1.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Мотор стеклоочистителя ГАЗ: 24, 3102, 31029,3110, 3302
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_2.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Фара левая Газель Соболь н.об. "капля"(пр-во ДК)
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+            +b.products-spec
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_2.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Фара левая Газель Соболь н.об. "капля"(пр-во ДК)
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_1.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Мотор стеклоочистителя ГАЗ: 24, 3102, 31029,3110, 3302
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+            +b.products-spec
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_1.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Мотор стеклоочистителя ГАЗ: 24, 3102, 31029,3110, 3302
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+              +b.products-spec__item
+                +e.item__image
+                  +e('img')(src='assets/images/products_spec_item_2.png' alt='')
+                +e('span').item__cod Код: 00000000968
+                +e('span').item__number Каталожный номер: 00000000968
+                +e('p').item__name.jsDotDot Фара левая Газель Соболь н.об. "капля"(пр-во ДК)
+                +e.item__price-slider
+                  +e('span') 1 578₽
+                  +e('button').item__price-slider__btn купить за 1 234₽
+                +e('a')(href='#').item__buy купить в 1 клик
+        +e.block
+          +e('p') более
+          +e('span') 1 456
+          +e('p') товаров
+          +e('a')(href='#') еще товары

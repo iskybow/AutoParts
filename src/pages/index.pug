@@ -1,6 +1,20 @@
 extends ../components/layout-default/layout-default
+include ../components/header/header
+include ../components/products/products
+include ../components/car-brands/car-brands
+include ../components/spares/spares
+include ../components/manufacturers/manufacturers
+include ../components/footer/footer
+include ../components/modal/modal
 
 block head
     - var pageTitle = 'Index Page';
 
 block content
+  +header()
+  +products()
+  +car-brands()
+  +spares()
+  +manufacturers()
+  +footer()
+  +modal()

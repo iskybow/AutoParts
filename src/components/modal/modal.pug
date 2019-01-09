@@ -1,0 +1,13 @@
+mixin modal()
+  +b.modal.jsModal
+    +b.m-overlay.jsMClose
+    +b.m-block
+      +e('button').close.jsMClose
+        +e('span')
+        +e('span')
+      +b.m-advice
+        +e('h2') Получить консультацию
+        +e('form')
+          +e('input')(type='text' name='name' required placeholder='Ваше имя')
+          +e('input')(type='tel' name='phone' required placeholder='Ваш номер телефона')
+          +b('button')(type='submit') Отправить

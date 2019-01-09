@@ -10,7 +10,12 @@ html(lang='ru')
 		block head
 		title= pageTitle || ''
 
+		link(href='assets/css/slick.css' rel='stylesheet')
+		link(href='assets/css/slick-theme.css' rel='stylesheet')
 		link(href='assets/css/style.css' rel='stylesheet')
 	body
 		block content
+		script(src='assets/js/jquery-3.2.1.min.js')
+		script(src='assets/js/slick.min.js')
+		script(src='assets/js/jquery.dotdotdot.js')
 		script(src='assets/js/script.js')

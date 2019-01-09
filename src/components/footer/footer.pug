@@ -1,0 +1,39 @@
+mixin footer()
+  +b('footer').footer
+    +b.container
+      +b.f-logo
+        +e('a')(href='/').logo ТД Газавтозапчасти
+        +e('span').text Оптово-розничная торговля автозапчестями на автомобили: Волга; Газель; Соболь; ГАЗ: 52, 53,
+          | 3307; ПАЗ; Волдай; УАЗ все модели
+      +b('ul').f-menu
+        +e('li')
+          +e('a')(href='#') О магазине
+        +e('li')
+          +e('a')(href='#') Оплата и доставка
+        +e('li')
+          +e('a')(href='#') Вопрос-ответ
+        +e('li')
+          +e('a')(href='#') Новости
+        +e('li')
+          +e('a')(href='#') Контакты
+        +e('li')
+          +e('a')(href='#') Каталог запчастей
+        +e('li')
+          +e('a')(href='#') Запчасти по автомобилям
+        +e('li')
+          +e('a')(href='#') Спецпредложения
+      +b.f-contacts
+        +e.top
+          +b('button').btn-headfoot.btn.jsMAdvice
+            +e.image
+              +e('img')(src='assets/images/call-answer.svg' alt='')
+            +e.text
+              +e('span') +7 351  262 41 21
+              +e('span') Получить консультацию
+          +e('span').top__schedule Прием звонков<br> пн-пт с 9-00 до 18-00
+        +e('a')(href='tel:+73512626762').tel
+          +e('img')(src='assets/images/telephone.svg' alt='')
+          | + 7 351  262-67-62
+        +e('p').map
+          +e('img')(src='assets/images/placeholder.svg' alt='')
+          | г. Челябинск ул. Корабельная<br> д. 15, корпус 1
